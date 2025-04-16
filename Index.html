@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário, Alyssa!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #2e003e, #4a001f);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #ff4f81;
+      font-size: 2.5em;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px auto;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    .playlist {
+      margin: 30px 0;
+    }
+    iframe {
+      width: 90%;
+      max-width: 400px;
+      height: 80px;
+      border: none;
+      margin: 10px 0;
+    }
+    .button-container {
+      margin-top: 40px;
+    }
+    button {
+      background-color: #9b00e8;
+      border: none;
+      color: white;
+      padding: 15px 25px;
+      font-size: 1em;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #b832e4;
+    }
+    .hidden-message {
+      margin-top: 30px;
+      font-size: 1.4em;
+      font-weight: bold;
+      display: none;
+      color: #ff6161;
+    }
+  </style>
+</head>
+<body>
+  <h1>Feliz Aniversário, Alyssa!</h1>
+  <p>
+    Oi, madame! Hoje é o seu aniversário, um dia muito especial pra mim. Porque, sinceramente... se você não tivesse nascido, o que seria de mim? Brincadeiras à parte, você sabe o quanto é importante na minha vida. Não preciso escrever mil coisas pra dizer o que você já sente: eu te amo muito. Aproveita o seu dia, madame, porque ele é todo seu!
+  </p>  <div class="playlist">
+    <h2>Playlist Especial</h2>
+    <iframe src="https://open.spotify.com/embed/track/5kS3KsU0Lx8kYxY3Cj3pFv" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/4o0PbT62v0TtfaYbWNP2Zj" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/7z2zA1kAzfJX6KJ0yHeK5c" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/0tIFTxkUcx9FAoyYNzI8go" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/1kPpge9JDLpcj15qgrPbYX" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/track/6gBFPUFcJLzWGx4lenP6h2" allow="encrypted-media"></iframe>
+  </div>  <div class="button-container">
+    <button onclick="mostrarMensagem()">Clique aqui</button>
+    <div class="hidden-message" id="mensagemOculta">Eu te amo pra caralho Alyssa, não esqueça disso nunca.</div>
+  </div>  <script>
+    function mostrarMensagem() {
+      document.getElementById('mensagemOculta').style.display = 'block';
+    }
+  </script></body>
+</html>
